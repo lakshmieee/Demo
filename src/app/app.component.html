@@ -1,0 +1,16 @@
+<div class="contianer-fluid">
+  <nav class="nav">
+      <a class="nav-link active" [routerLink]="['home']">Home</a>
+      <a class="nav-link" routerLink="delivery">Delivery</a>
+      <a class="nav-link" [routerLink]="['productList']">Products</a>
+      <a class="nav-link disabled">call +123456789</a>
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" routerLink="#" role="button" >Language</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" routerLink="#">Tamil</a></li>
+            <li><a class="dropdown-item" routerLink="#">English</a></li>
+          </ul>
+        </li> 
+    </nav>
+  </div>
+  <router-outlet></router-outlet>

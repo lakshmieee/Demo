@@ -1,0 +1,7 @@
+.nav {
+    background-color: rgb(65, 65, 244);
+    
+}
+a, .disabled{
+    color: white;
+}

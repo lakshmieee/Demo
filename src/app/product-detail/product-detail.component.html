@@ -1,0 +1,19 @@
+<div class="container">   
+    <div  *ngIf="product"> 
+            <h2>{{ product.name }}</h2>
+            <img src="{{ product.fullImage }}" alt="{{ product.name }}">
+            <br><br>
+            <div>
+            <button>BUY NOW</button>
+            <button><i class="fa-solid fa-cart-shopping"></i> ADD TO CART</button>
+    </div><br>
+            <div class="price">  {{ product.price }} &#x20B9;</div>
+            <div><b>Discount:</b> Up to {{ product.discount }}%</div>
+           <span><b>Ratings : </b> <ngb-rating [max]="5"> </ngb-rating></span>
+            <div><b>Quantity Available:</b> {{ product.quantity }}</div>
+            <div><b>Description:</b> {{ product.description }}.</div>
+            <div><b>Return Policy: </b>{{ product.returnPolicy }}.</div>        
+</div>   
+</div>
+<br><br>
+

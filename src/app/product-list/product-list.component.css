@@ -1,0 +1,26 @@
+.card:hover{
+    background-color: rgb(238, 234, 234);
+}
+button{
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-weight: bold;
+}
+ngb-rating{
+    color: gold;
+    font-size: 30px;
+
+} 
+.card{
+    display: flex;
+   justify-content: space-around;
+}
+
+/* a{
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+   font-weight: bold;
+    color:black;
+} */
