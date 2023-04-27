@@ -8,13 +8,15 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AuthGuard } from './auth.guard';
+import { PackageComponent } from './package/package.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ProductListComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    PackageComponent
   ],
   imports: [
     BrowserModule,
